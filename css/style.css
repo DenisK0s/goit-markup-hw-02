@@ -1,0 +1,106 @@
+/* цвет основного текста #212121 */
+/* цвет вторичного текста #757575 */
+/* белый текст и боди #FFFFFF */
+/* акцент #2196F3 */
+/* футер почта, телефон rgba(255, 255, 255, 0.6) */
+/* сеция Наша команда #F5F4FA*/
+/* секции Футер и Хиро #2F303A */
+/* чёрный цвет лого в хэдэре #000000 */
+
+:root {
+  --primary-text-color: #212121;
+  --sub-text-color: #757575;
+  --primary-white-color: #ffffff;
+  --accent: #2196f3;
+  --text-logo: #000000;
+}
+
+body {
+  background-color: #ffffff;
+  color: var(-primary-text-color);
+}
+
+ul {
+  list-style: none;
+}
+
+/* .list {
+  list-style: none;
+} */
+
+.logo {
+}
+
+.logo:hover {
+  color: var(--accent);
+}
+
+.logo > .web {
+  color: var(--accent);
+}
+
+.logo > .studio-black {
+  color: var(--text-logo);
+}
+
+.logo > .studio-white {
+  color: var(--primary-white-color);
+}
+
+/* Site nav */
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent);
+}
+
+.site-nav .link.current {
+  color: var(--accent);
+}
+
+/* INDEX */
+
+/* Hero */
+
+.hero-title {
+  color: var(--primary-white-color);
+}
+
+/* Section */
+
+.section-title {
+}
+
+/* Features */
+
+.feature-list .text {
+  color: var(--sub-text-color);
+}
+
+/* Button */
+
+.button {
+  background-color: var(--primary-white-color);
+  color: var(--primary-text-color);
+}
+
+.button.primery {
+  background-color: var(--accent);
+  color: var(--primary-white-color);
+}
+
+/* PORTFOLIO */
+
+.button-item {
+  background-color: var(--accent);
+  color: var(--primary-white-color);
+}
+
+.button-item:hover,
+.button-item:focus {
+  color: var(--primary-white-color);
+}
+
+.work-list .text {
+  color: var(--sub-text-color);
+}

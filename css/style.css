@@ -36,7 +36,7 @@ body {
 }
 /* ========== COMPONENTS ========== */
 .section-title {
-	font-weight: 700;
+	font-weight: var(--bold-font-weight);
 	font-size: 36px;
 	line-height: 1.166;
 	text-align: center;
@@ -50,7 +50,7 @@ body {
 
 .logo {
 	font-family: var(--sub-font);
-	font-weight: 700;
+	font-weight: var(--bold-font-weight);
 	font-size: 26px;
 	line-height: 1.192;
 	letter-spacing: 0.03em;
@@ -73,7 +73,7 @@ body {
 .nav-list-link {
 	color: var(--main-text-color);
 
-	font-weight: 500;
+	font-weight: var(--secondary-font-weight);
 	font-size: 14px;
 	line-height: 1.142;
 	letter-spacing: 0.02em;
@@ -82,7 +82,7 @@ body {
 .contacts-list-link {
 	color: var(--sub-text-color);
 
-	font-weight: 500;
+	font-weight: var(--secondary-font-weight);
 	font-size: 14px;
 	line-height: 1.142;
 	letter-spacing: 0.02em;
@@ -105,7 +105,7 @@ body {
 .hero-title {
 	color: var(--primary-white-color);
 
-	font-weight: 900;
+	font-weight: var(--extra-font-weight);
 	font-size: 44px;
 	line-height: 1.363;
 	text-align: center;
@@ -120,7 +120,7 @@ body {
 
 	font-family: var(--main-font);
 	font-style: normal;
-	font-weight: 700;
+	font-weight: var(--bold-font-weight);
 	font-size: 16px;
 	line-height: 1.875;
 	letter-spacing: 0.06em;
@@ -130,7 +130,7 @@ body {
 /* ========== ADVANTAGES ========== */
 
 .advantages-list-title {
-	font-weight: 700;
+	font-weight: var(--bold-font-weight);
 	font-size: 14px;
 	line-height: 1.142;
 	letter-spacing: 0.03em;
@@ -140,7 +140,7 @@ body {
 .advantages-list-text {
 	color: var(--sub-text-color);
 
-	font-weight: 400;
+	font-weight: var(--main-font-weight);
 	font-size: 14px;
 	line-height: 1.714;
 	letter-spacing: 0.03em;
@@ -153,7 +153,7 @@ body {
 /* ========== OUR TEAM ========== */
 
 .team-list-name {
-	font-weight: 500;
+	font-weight: var(--secondary-font-weight);
 	font-size: 16px;
 	line-height: 19px;
 	letter-spacing: 0.03em;
@@ -162,7 +162,7 @@ body {
 .team-list-prof {
 	color: var(--sub-text-color);
 
-	font-weight: 400;
+	font-weight: var(--main-font-weight);
 	font-size: 16px;
 	line-height: 1.187;
 	letter-spacing: 0.03em;
@@ -173,7 +173,7 @@ body {
 .address-location-link {
 	color: var(--primary-white-color);
 
-	font-weight: 400;
+	font-weight: var(--main-font-weight);
 	font-size: 14px;
 	line-height: 1.714;
 	letter-spacing: 0.03em;
@@ -182,7 +182,7 @@ body {
 .address-list-link {
 	color: var(--extra-text-color);
 
-	font-weight: 400;
+	font-weight: var(--main-font-weight);
 	font-size: 14px;
 	line-height: 1.714;
 	letter-spacing: 0.03em;
@@ -191,10 +191,12 @@ body {
 
 /* ========== PORTFOLIO ========== */
 
+/* Button */
+
 .modal-btn {
 	color: var(--main-text-color);
 
-	font-weight: 500;
+	font-weight: var(--secondary-font-weight);
 	font-size: 16px;
 	line-height: 1.625;
 	letter-spacing: 0.03em;
@@ -206,8 +208,10 @@ body {
 	background-color: var(--accent-color);
 }
 
+/* Work list */
+
 .work-list-title {
-	font-weight: 700;
+	font-weight: var(--bold-font-weight);
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
@@ -216,7 +220,7 @@ body {
 .work-list-text {
 	color: var(--sub-text-color);
 
-	font-weight: 400;
+	font-weight: var(--main-font-weight);
 	font-size: 16px;
 	line-height: 1.875;
 	letter-spacing: 0.03em;
